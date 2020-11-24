@@ -18,7 +18,7 @@ This script creates required directories, which are used by the setup.
 # this directory will be shared among Spark and Jupyter services
 mkdir ./shared-vol
 
-# download data, specify --with-csv if you want to download and unzip data in csv format (100Gb) as well
+# download data, specify --with-csv if you want to download and unzip data in csv format (10Gb) as well
 cd shared-vol
 ../collect_data.sh
 
